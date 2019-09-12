@@ -1,0 +1,107 @@
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<h1 id="title">Tea Survey</h1>
+
+
+<div>
+<form id="survey-form" method="get" action="">
+<fieldset>
+
+<legend><p id="description">How do you take your tea?</p></legend>
+
+
+ <div class="label">
+    <label for="name" id="name-label">*Name:</label>
+ </div>
+ <div class="rightTab">
+    <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Your name here" required>
+ </div>
+
+
+
+
+<div class="label">
+    <label for="email" id="email-label">*Email:</label>
+</div>
+   <div class="rightTab">
+     <input autofocus type="email" name="email" id="email" class="input-field" placeholder="example@gmail.com" required>
+   </div>
+
+
+
+ <div class="label">
+   <label for="number" id="number-label">*How many minutes do you seep your tea?</label>
+ </div>
+   <div class="rightTab">
+     <input autofocus type="number" name="number" id="number" min="1" max="735" class="input-field" placeholder="e.g. 5">
+   </div>
+
+<div class="label">
+   <label for="maketea">*Do you usually have tea at a shop, or a home?</label>
+</div>
+<div class="rightTab">
+   <ul style="list-style: none;">
+     <li class="radio" id="radiofirst"><input name="radio-buttons" value="1" type="radio" class="maketea"><label>At a tea shop</label></li>
+     <li class="radio"><input name="radio-buttons" value="2" type="radio" class="maketea"><label>At home</label></li>
+     <li class="radio"><input name="radio-buttons" value="3" type="radio" class="maketea"><label>Both; about 50/50</label></li>
+   </ul>
+</div>     
+
+  <div class="label">
+    <label for="faveTea">Which type of tea is your favorite?</label>
+  </div>
+  <div class="rightTab"> 
+   <select id="dropdown" name="faveTea" class="dropdown">
+   <option disabled value>Choose One</option>
+   <option value="green">Green</option>
+   <option value="black">Black</option>
+   <option value="jade">Jade</option>
+   <option value="white">White</option>
+   <option value="oolong">Oolong</option>
+   <option value="mint">Mint</option>
+   <option value="linden">Linden</option>
+   <option value="hibiscus">Hibiscus</option>
+   <option value="other">Other</option> 
+  </select>
+  </div>
+
+
+
+  <div class="label">
+    <label for="dayweek">Which days do you like to drink tea? (check all that apply)</label>
+  </div>
+
+<div class="rightTab">
+<ul id="dayweek" name="dayweek" style="list-style: none;">
+<li><label class="checkbox" for="sunday"><input id="sunday" type="checkbox" name="dayweek" value="1">Sunday</label></li>
+<li><label class="checkbox" for="monday"><input id="monday" type="checkbox" name="dayweek" value="2">Monday</label></li>
+<li><label class="checkbox" for="tuesday"><input id="tuesday" type="checkbox" name="dayweek" value="3">Tuesday</label></li>
+<li><label class="checkbox" for="wednesday"><input id="wednesday" type="checkbox" name="dayweek" value="4">Wednesday</label></li>
+<li><label class="checkbox" for="thursday"><input id="thursday" type="checkbox" name="dayweek" value="5">Thursday</label></li>
+<li><label class="checkbox" for="friday"><input id="friday" type="checkbox" name="dayweek" value="6">Friday</label></li>
+<li><label class="checkbox" for="saturday"><input id="saturday" type="checkbox" name="dayweek" value="7">Saturday</label></li>
+</ul>
+</div>
+
+
+
+<div class="label">
+    <label for="comments">Is there a type or style of tea you would like to try? Tell us about it!</label>
+</div>
+  
+<div class="rightTab">
+    <textarea id="comments" class="comments" name="comments" style="height:50px;resize:vertical;" name="comments" placeholder="Enter your comments here..."></textarea>
+</div>
+
+
+<button id="submit" type="submit">Pour the tea!</button>
+</div>
+
+
+
+</fieldset>
+</form>
+

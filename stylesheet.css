@@ -1,0 +1,107 @@
+html, body {
+   background-color: #A1CDA8;
+   font-family: 'Quicksand', 'Raleway', Helvetica, sans-serif; 
+   font-size: 14pt; 
+   min-width: 320px;
+   text-align: center;
+   color: #633C5C;
+ }
+
+legend {
+   background-color: #C5E7E2;
+   border-radius: 10px;
+   padding: 5px 20px;
+   text-align: left;
+   font-size: 16pt;
+   width: 33%
+   min-width: 100px;
+     
+}
+
+fieldset {
+   background-color: #F1F2EB;
+   border-radius: 7px;
+   border: 0;
+   width: 75%;
+   min-width: 320px;
+   max-width: 1000px;
+   margin: 0px auto; 
+}
+
+.label {
+  display: inline-block;
+  text-align: right;
+  width: 33%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 48%;
+  min-width: 170px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 20px;
+  border: 1px solid #AD9BAA;
+}
+
+.dropdown {
+  height: 25px;
+  width: 100px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 20px;
+  border: 1px solid #AD9BAA;
+}
+
+.checkbox {
+  position: relative;
+  left: -40px;
+  margin: 5px;
+}
+
+.radio {
+  position: relative;
+  left: -40px;
+  margin: 5px;
+}
+
+
+.comments {
+  height: 250px;
+  width: 48%;
+  min-width: 170px;
+  border: 1px solid #AD9BAA;
+  margin: 5px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+button {
+  float: right;
+  height: 35px;
+  width: 150px;
+  background-color: #B5DFCA;
+  border-radius: 3px;
+  font-family: 'Quicksand', 'Raleway', Helvetica, sans-serif; 
+  font-size: 16pt;
+  margin: 30px;
+  margin-top: 50px;
+  border: 0px;
+  vertical-align: bottom;
+}
+
+button:hover {
+  background-color: #A1CDA8;
+  font-style: bold;
+  cursor: pointer;
+}
